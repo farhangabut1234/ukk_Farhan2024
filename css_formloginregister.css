@@ -1,0 +1,82 @@
+header {
+    width: 100%;
+    border: none;
+    background-color: gainsboro;
+    box-shadow: slategrey 0px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px 50px;
+
+    position: fixed;
+
+}
+header .logo img {
+    width: 40px;
+    height: 40px;
+}
+header .navbar {
+    display: flex;
+    gap: 10px;
+}
+/* header .h2 {
+    justify-items: end;
+} */
+
+header .navbar a li {
+    padding: 5px 15px;
+    transition: 0.5s;
+    color: darkslategrey;
+}
+header .navbar a li:hover {
+    box-shadow: slategrey 0px 0px 10px 0px;
+    border-radius: 8px;
+}
+
+header .h2 span:nth-child(2) {
+    color: darkred;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+    padding: 150px 0px;
+}
+.container .row {
+    width: 100%;
+}
+.container .btn {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+.container .btn:hover {
+    box-shadow: darkslategrey 0px 0px 10px 0px;
+}
+.container .row input {
+    padding: 5px;
+    width: 80%;
+    border-radius: 4px;
+    border: none;
+    box-shadow: slategrey 0px 0px 5px 0px;
+}
+
+
+
+footer {
+    display: flex;
+    background-color: darkslategrey;
+    padding: 40px 0px;
+}
+footer div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p {
+    color: whitesmoke;
+}

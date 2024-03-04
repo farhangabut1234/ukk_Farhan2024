@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MODAL FORM</h1>
+    <button onclick="komentar()">Detail</button>
+
+    <div id="komentar" class="komentar">
+        ini adalah div
+        <button onclick="closepage()">Close</button>
+    </div>
+
+<script>
+// function komentar() {
+//     document.getElementById("komentar").style.display = "block";
+
+// }
+
+function closepage() {
+    document.getElementById("komentar").style.display = "none";
+}
+</script>
+
+<style>
+    .komentar {
+        width: 600px;
+        height: 500px;
+        text-align: center;
+        box-shadow: grey 0px 0px 6px 0px;
+        /* position: ; */
+        
+    }
+</style>
+</body>
+</html>

@@ -1,0 +1,10 @@
+nama database : gallery_database
+
+daftar tabel saya :
+tabel foto berisi foto_id judul_foto deskripsi_foto tanggal_unggah lokasi_file album_id user_id, 
+tabel user berisi user_id username password email nama_lengkap telepon alamat, 
+tabel komentarfoto berisi komentar_id foto_id user_id isi_komentar tanggal_komentar, dan 
+tabel album berisi album_id nama_album deskripsi tanggal_dibuat terakhir_edit user_id 
+tabel likefoto berisi like_id foto_id user_id tanggal_like
+
+belajar tik
